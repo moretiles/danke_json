@@ -18,7 +18,7 @@ char *cstrndup(const char *src, size_t m){
         m = n;
     }
 
-    char *dest = calloc(sizeof(char), m);
+    char *dest = calloc(m, sizeof(char));
     return cstrncpy(dest, src, m);
 }
 

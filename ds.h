@@ -1,3 +1,11 @@
+/*
+ * ds.h -- Data structures
+ *
+ * danke_json - Another tool for working with JSON in C
+ * https://github.com/moretiles/danke_json
+ * Project licensed under Apache-2.0 license
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
