@@ -1,3 +1,11 @@
+/*
+ * hash.h -- Basic hashtable using fnv hashing
+ *
+ * danke_json - Another tool for working with JSON in C
+ * https://github.com/moretiles/danke_json
+ * Project licensed under Apache-2.0 license
+ */
+
 #include "ds.h"
 #include "queue.h"
 #include "cstring.h"
@@ -15,6 +23,7 @@ extern JsonNode *destroy_node(struct json_pool *pool, JsonNode *elem);
 struct ht *ht_init(size_t numElems);
 uint64_t fnv(const char *data, size_t len);
 uint64_t fnv_str(const char *data);
+int fnv_hash(const char *data, uint32_t *offset, uint32_t *iterate);
 JsonNode *ht_insert_copy(struct ht *table, const char *key, JsonNode *val);
 JsonNode *ht_insert_direct(struct ht *table, char *key, JsonNode *val);
 //JsonNode *ht_find_key(struct ht *table, const char *key);

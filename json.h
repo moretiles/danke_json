@@ -1,3 +1,11 @@
+/*
+ * json.h -- All of the functions for working with json itself
+ *
+ * danke_json - Another tool for working with JSON in C
+ * https://github.com/moretiles/danke_json
+ * Project licensed under Apache-2.0 license
+ */
+
 #include <stdarg.h>
 #include <stdint.h>
 #include <stdio.h>

@@ -1,3 +1,11 @@
+/*
+ * pool.h -- Pool allocator used to reserve memory
+ *
+ * danke_json - Another tool for working with JSON in C
+ * https://github.com/moretiles/danke_json
+ * Project licensed under Apache-2.0 license
+ */
+
 #include "ds.h"
 
 #include <stddef.h>
