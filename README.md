@@ -8,7 +8,7 @@
 1. Install any C11 compliant compiler.
 1. Install your preferred method of executing Makefiles.
 1. From within the root directory run `make release`.
-1. You should now have dank\_json.o.
+1. You should now have danke\_json.o.
 
 
 ## Examples

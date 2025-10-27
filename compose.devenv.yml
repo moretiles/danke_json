@@ -1,6 +1,6 @@
 "services":
-  "dank_json":
-    "container_name": "dank_json"
+  "danke_json":
+    "container_name": "danke_json"
     "build":
       "context": "."
       "dockerfile": "Dockerfile.devenv"
